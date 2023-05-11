@@ -8,9 +8,6 @@ $ git checkout xxx
 # 全局安装 nrwl 客户端（注意：该软件需要 Nodejs 12.9以上版本）
 $ yarn install
 $ yarn run build:libs # Build remix libs
-# 编译打包
-#$ nx build remix-ide --with-deps
-$ yarn nx build
 ```
 
 #### 二、启动开发工具 remix-project
