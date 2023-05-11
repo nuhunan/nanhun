@@ -8,7 +8,6 @@ contract Hew {
     
     // 定义一个map变量，名字叫balances。key的类型是address，value的类型是uint256
     
-    // 合约构造器（参数是合约初始币数量）
     constructor(uint256 initialSupply) public {
         // msg.sender 是合约部署发起者的地址（也就是将合约初始币放到合约部署发起者的地址上）
         balanceOf[msg.sender] = initialSupply;
