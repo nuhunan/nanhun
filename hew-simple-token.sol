@@ -7,8 +7,6 @@ pragma solidity >=0.7.0 <0.9.0;
 contract Hew {
     
     // 定义一个map变量，名字叫balances。key的类型是address，value的类型是uint256
-    // 该变量记录合约里所有地址余额情况
-    mapping(address => uint256) public balanceOf;
     
     // 合约构造器（参数是合约初始币数量）
     constructor(uint256 initialSupply) public {
