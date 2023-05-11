@@ -16,8 +16,6 @@ abstract contract ERC20Interface {
     uint256 public totalSupply;
     
     // virtual 表示抽象函数
-    // 获取合约里面某个地址的余额
-    function balanceOf(address _owner) public view virtual returns (uint256 balance);
     // 转账
     function transfer(address _to,uint256 _value) public virtual returns (bool success);
     // 转账（该函数一般用于抽取转移。就是用户授权了某个账户可以操控本账户，那么授权账户就可以调用该函数将本账户的合约币转走）
