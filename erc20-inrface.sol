@@ -3,8 +3,6 @@
 pragma solidity >=0.7.6 <0.9.0;
 
 // erc20标准文档： https://github.com/ethereum/EIPs/blob/master/EIPS/eip-20.md
-// 定义 ERC20 标准接口（注意：接口里面定义的变量默认会生成get函数）
-// abstract 表示抽象类
 abstract contract ERC20Interface {
     // 合约币全名称
     string public name;
