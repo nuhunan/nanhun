@@ -12,8 +12,6 @@ $ yarn run build:libs # Build remix libs
 # 编译打包
 #$ nx build remix-ide --with-deps
 $ yarn nx build
-# 全局安装本地文件共享服务（用于加载本地文件）
-$ npm install -g @remix-project/remixd
 ```
 
 #### 二、启动开发工具 remix-project
