@@ -24,6 +24,5 @@ $ yarn nx serve
 # 启动本地文件共享服务，将目录 /home/chiangfire/data-dev/workspace-solidity 共享给 http://127.0.0.1:8080 服务
 # 注意：另起命令行执行，而且服务域名要和浏览器上一致。该共享程序启动较慢需耐心等待
 $ remixd -s /home/chiangfire/data-dev/workspace-solidity --remix-ide http://127.0.0.1:8080
-#remixd -s /home/chiangfire/data-dev/workspace-solidity --remix-ide https://remix.ethereum.org
 ```
 
