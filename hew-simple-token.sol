@@ -10,7 +10,7 @@ contract Hew {
     
     constructor(uint256 initialSupply) public {
         // msg.sender 是合约部署发起者的地址（也就是将合约初始币放到合约部署发起者的地址上）
-        balanceOf[msg.sender] = initialSupply;
+        balanceOf[msg.sender] = initialSupp
     }
     
     // 转账
