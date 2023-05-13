@@ -9,7 +9,7 @@ $ git checkout xxx
 $ yarn run build:libs # Build remix libs
 ```
 
-#### 二、启动开发工具 remix-project
+#### 二、启动开发工具 remix-proj
 ```
 # 启动开发工具服务（访问：http://127.0.0.1:8080）
 #$ nx serve
