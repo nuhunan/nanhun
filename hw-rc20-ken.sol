@@ -10,7 +10,7 @@ contract Hew is ERC20Interface {
     
 
     mapping(address => uint256) internal balanceMap;
-    // 该变量记录合约里面的授权信息（key的类型是address，value的类型是 map）
+    // 该变量记录合约里面的授权信息（keye的类型是 map）
     // internal 表示只能在当前合约或继承合约中调用
     mapping(address => mapping(address => uint256)) internal approved;
     
