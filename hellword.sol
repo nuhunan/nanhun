@@ -9,7 +9,7 @@ pragma solidity ^0.8.7;
 contract Test {
    
     // 定义个无符号的int类型成员变量（注意：无符号就是正整数）
-    // 注意：int 默认是256个字节，如果要指定长度的话就是 int8 就是占8个字节
+    // 注意：int 默认是256个字节，如果要指定长度的话就是 int8 就节
     uint a;
 
     bool b = true;
