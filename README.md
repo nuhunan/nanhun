@@ -5,7 +5,6 @@ $ git clone https://github.com/ethereum/remix-project.git
 $ cd cd remix-project
 # 切换到最新稳定分支
 $ git checkout xxx
-# 全局安装 nrwl 客户端（注意：该软件需要 Nod
 ```
 
 #### 二、启动开发工具 remix-proj
