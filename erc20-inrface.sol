@@ -4,8 +4,6 @@ pragma solidity >=0.7.6 <0.9.0;
 
 // erc20标准文档： https://github.com/ethereum/EIPs/blob/master/EIPS/eip-20.md
 abstract contract ERC20Interface {
-    // 合约币全名称
-    string public name;
     // 合约币简称
     string public symbol;
     // 合约币精度
